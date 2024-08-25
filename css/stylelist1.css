@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+#output-body{
+    text-align: center;
+
+}
+
+
+
+#output-body .logo{
+    opacity: 0.5;
+    background-color: transparent;
+    background: none;
+    margin-bottom: 0px;
+    padding-left: 24px;
+}
+
+
+#output-body .flat{
+    margin: 0px 0px 6px 0px;
+}
+
+#output-body .flat-VN{
+    border: none;
+    background: none;
+    width: 32px;
+    height: 32px;
+    margin: 0px 24px 0px 24px;
+    transition: transform 0.3s; /* Hiệu ứng chuyển tiếp */
+
+}
+
+#output-body .flat-EN{
+    border: none;
+    background: none;
+    width: 32px;
+    height: 32px;
+    margin: 0px 24px 0px 24px;
+    transition: transform 0.3s; /* Hiệu ứng chuyển tiếp */
+
+}
+
+#output-body .flat-VN:hover{
+    opacity: 0.8;
+    transform: scale(1.1)
+}
+
+#output-body .flat-EN:hover{
+    opacity: 0.8;
+    transform: scale(1.1)
+}
+
+
+#output-body .car-personal{
+    background: 
+    linear-gradient(95.2deg, rgba(173, 252, 234, 0.8) 26.8%, rgba(192, 229, 246, 0.8) 64%), /* Gradient với độ mờ */
+    url('https://filmore.com.vn/thefilmoredanang/wp-content/uploads/2021/06/TheFilmore_Web46.jpg'); /* Hình ảnh */
+background-size: cover; /* Đảm bảo hình ảnh bao phủ toàn bộ khu vực */
+background-position: center; /* Căn giữa hình ảnh */
+background-repeat: no-repeat; /* Không lặp lại hình ảnh */
+    margin-top: 32px;
+    display: inline-block;
+    height: fit-content;
+    text-align: center; 
+    padding-top: 16px;
+    padding-bottom: 32px;
+    min-width: 650px;
+ 
+}
+
+#output-body #image{
+    display: flex;
+    max-width: 650px;
+    flex-wrap: wrap;
+
+}
+
+#output-body #img-license{
+    margin-right: 8px;
+    
+
+}
+#output-body #img-license1{
+   
+    margin-left: 8px;
+
+}
+
+
+#output-body .header-lincese{
+    margin-top: 24px;
+
+}
+
+#output-body .license-plates{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+    margin: 16px auto;
+    line-height: 2;
+    font-size: 20px;
+
+  
+    
+
+}
+#output-body .img-car{
+
+    margin-top: 16px;
+
+}
+
+
+#output-body .btnShow{
+    padding: 16px;
+    font-size: 30px;
+    width: 100%;
+    background-color:rgb(226 22 81);
+    border-radius: 20px;
+}
+
+#output-body .btnShow:hover{
+    opacity: 0.8;
+}
+
+#output-body .infor-detail{
+    width: 540px;
+    display: flex;
+    background-color: white;
+    padding: 16px;
+    border-radius: 5%;
+    margin: 16px auto 32px auto;
+    line-height: 2;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;  
+   
+    
+}
+.column1-detail, .column2-detail{
+    flex: 1;
+    border: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#output-body .column1-detail{
+    border: none;
+    text-align: left;
+    padding-left: 16px;
+}
+#output-body .column2-detail{
+    border: none;
+    text-align: right;
+    padding-right: 16px;
+}
+#list-infors{
+    border: none;
+    list-style-type: none
+}
+
+#output-body .license-plates{
+    display: flex;
+    justify-content: center;
+    
+
+}
+.column1-personal {
+    flex: 2;
+}
+
+ .column2-personal{
+    margin-left: 10px;
+    flex: 1;
+}
+
+.column3-personal, .column4-personal{
+    flex: 2;
+}
+
+.column1-personal{
+    display: inline-block;
+}
+
+#output-body .discount-output{
+    border-top: 5px, solid red;
+}
+

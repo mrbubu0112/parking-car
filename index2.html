@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="./css/stylelist2.css">
+    <title>PAYMENT</title>
+</head>
+<body>
+
+    <div id="input-payment">
+        <div class="car-details">
+
+          <img class="logo" src="/asset/img/1._LOGO-removebg-preview.png" alt="Logo">
+
+          <div class="flat">
+            <button class="flat-VN" onclick="changeLanguage('vi')"
+        ><img src="./asset/img/Vietnam.svg"></img>
+        </button>
+          
+        <button class="flat-EN" onclick="changeLanguage('en')"
+        ><img src="./asset/img/ic_flag_en.svg"></img>
+        </button>
+
+          </div>
+
+          <div class="content">
+            <h5 id="payment" class="payment">PAYMENT</h5>
+            <p id="scan" class="scan">SCAN HERE TO PAY</p>
+            <div id="countdown1" class="countdown1"></div>
+            <div id="countdown" class="countdown"></div>
+            <div id="qr-code-container"></div>
+
+            
+            <div class="infor-detail" >   
+                
+              <div class="column1-detail">
+                  
+                      
+                      <p id="bankname1">Plate No1111</p>
+                      <p id="owner1">Entry Time</p>
+                      <p id="accountnumber1">Duration</p>
+                      <p id="contentbank">Expiration</p>     
+                     
+                  
+                  
+               
+              </div>
+              <div class="column2-detail">
+                  
+                  <!-- <ul id="list-infors"></ul> -->
+                
+
+                  <div id="bankname" class="bankname">HSBC CN HO CHI MINH</div>
+                  <div id="owner" class="owner">CBRE VN</div>     
+                  <div id="accountnumber" class="account"></div>        
+                    <div id="content" class="content-bank"></div>
+                    
+                  
+              
+                                         
+              </div>
+              <div class="column2-detail">
+                <div>
+                  <i class="far fa-copy copy-icon hide" onclick="copyAccountNumber()"></i>
+           
+                </div>
+                <div>
+                  <i class="far fa-copy copy-icon hide" onclick="copyAccountNumber()"></i>
+            
+
+                </div>
+                <div>
+
+                  <i class="far fa-copy copy-icon" onclick="copyAccount()"></i>
+
+                </div>
+                <div>
+                  <i class="far fa-copy copy-icon" onclick="copyContent()"></i>
+              
+                </div>
+              
+              </div>
+
+              
+
+          </div>
+              
+            <p id="textThanhToan" class="thanhtoan">Thanh toán không thành công</p>
+            <div id="paymentStatus"></div>
+            
+        
+        </div>
+        
+        </div>
+        <div id="notification" class="notification" >
+          Đã sao chép
+        </div>
+        
+    </div>
+
+    
+    
+
+    <script src="./Javascrip/app2.js">
+
+    </script>
+   >
+
+ 
+
+<script src="./Javascrip/languages2.js">
+    
+</script>
+    
+</body>
+</html>

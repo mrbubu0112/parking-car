@@ -1,0 +1,241 @@
+
+.content {
+    margin-top: 12px;
+    width: 100%;
+    display: inline-block;
+    height: fit-content;
+    text-align: center;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#textThanhToan {
+    display: none;
+    color: red;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 24px 0px 24px 0px;
+}
+
+
+#input-payment .payment{
+    margin: 12px 0px 16px 0px;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#input-payment .scan{
+    margin: 12px 0px 12px 0px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#input-payment .demthoigian{
+    margin: 12px 0px 12px 0px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* reset CSS */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#input-payment{
+    text-align: center;
+}
+
+
+
+#input-payment .logo{
+    opacity: 0.5;
+    background-color: transparent;
+    background: none;
+    margin-bottom: 0px;
+    padding-left: 24px;
+}
+
+
+#input-payment .flat{
+    margin: 0px 0px 6px 0px;
+}
+
+#input-payment .flat-VN{
+    border: none;
+    background: none;
+    width: 32px;
+    height: 32px;
+    margin: 0px 24px 0px 24px;
+    transition: transform 0.3s; /* Hiệu ứng chuyển tiếp */
+
+}
+
+#input-payment .flat-EN{
+    border: none;
+    background: none;
+    width: 32px;
+    height: 32px;
+    margin: 0px 24px 0px 24px;
+    transition: transform 0.3s; /* Hiệu ứng chuyển tiếp */
+
+}
+
+#input-payment .flat-VN:hover{
+    opacity: 0.8;
+    transform: scale(1.1)
+}
+
+#input-payment .flat-EN:hover{
+    opacity: 0.8;
+    transform: scale(1.1)
+}
+
+
+#input-payment .car-details{
+    /* background-color: #89cdf4; */
+    background: 
+    linear-gradient(95.2deg, rgba(173, 252, 234, 0.8) 26.8%, rgba(192, 229, 246, 0.8) 64%), /* Gradient với độ mờ */
+    url('https://filmore.com.vn/thefilmoredanang/wp-content/uploads/2021/06/TheFilmore_Web46.jpg'); /* Hình ảnh */
+background-size: cover; /* Đảm bảo hình ảnh bao phủ toàn bộ khu vực */
+background-position: center; /* Căn giữa hình ảnh */
+background-repeat: no-repeat; /* Không lặp lại hình ảnh */
+    margin-top: 32px;
+    width: fit-content;
+    display: inline-block;
+    height: fit-content;
+    text-align: center; 
+    padding-top: 16px;
+    padding-bottom: 32px;
+    min-width: 650px;
+}
+#input-payment .img-car{
+
+    padding-top: 16px;
+    padding-bottom: 16px;
+    width: 650px;
+}
+#input-payment .heading{
+    padding: 16px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#input-payment .countdown1{
+    padding: 8px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#input-payment .countdown{
+    padding: 8px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#input-payment #qr-code-container{
+    padding: 16px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: green;
+
+}
+
+
+
+#input-payment .infor-detail{
+    width: 540px;
+    display: flex;
+    background-color: #ecf0f1;
+    padding: 16px;
+    border-radius: 5%;
+    margin: 16px auto 32px auto;
+    line-height: 2;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;  
+   
+    
+}
+.column1-detail{
+ 
+    border: none;
+    text-align: left;
+    
+  
+   
+    
+}
+.column2-detail{
+   
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+   
+    
+}
+
+.acountbank{
+    display: flex;
+    justify-content: space-around;
+}
+.content-transfer{
+    display: flex;
+    justify-content: space-around;
+}
+
+#input-payment .column1-detail{
+    border: none;
+    text-align: left;
+    padding-left: 16px;
+}
+#input-payment .column2-detail{
+    border: none;
+    text-align: left;
+
+}
+
+
+    
+.account {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  .copy-icon {
+    font-size: 24px;
+    color: #333;
+    cursor: pointer;
+    transition: color 0.3s;
+    padding-left: 10px;
+  }
+
+  .copy-icon:hover {
+    color: #666;
+  }
+
+  .copy-icon.copied {
+    color: #4CAF50;
+  }
+
+  .notification {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+  }
+
+  .notification.show {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .hide{
+    opacity: 0;
+  }

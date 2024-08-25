@@ -1,0 +1,15 @@
+{
+    "en": {
+      "welcomeMessage": "Welcome!",
+      "licenseMessage": "license Plate",
+      "headingMessage": "Tieng anh",
+      "paragraph": "This is a paragraph in English."
+    },
+    "vi": {
+      "welcomeMessage": "Chào mừng!",
+      "licenseMessage": "Biển số",
+      "headingMessage": "Tieng viet",
+      "paragraph": "tieng viet."
+    }
+  }
+

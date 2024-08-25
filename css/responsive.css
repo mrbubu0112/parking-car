@@ -1,0 +1,119 @@
+
+@media (min-width: 1024px) {  
+}
+
+/* Tablet && Mobile
+
+*/
+
+
+@media (max-width: 1023px){
+
+}
+
+/* Tablet */
+
+@media (max-width: 1023px) and (min-width: 740px) {
+     .Tablet{
+        display: block;}
+
+    #content .section-content{
+        width:fit-content;
+    } 
+
+}
+/* Moblie */
+
+@media (max-width: 739px) {
+    #header{
+        overflow: hidden;
+    }
+
+    #nav {
+        display: block;
+    }
+    #nav li {
+        display: block;
+        width: 100%;
+        background-color: #000;      
+    }
+    #nav > li:first-child{
+    display: inline-block;
+    }
+
+    #header .search-btn {
+        display: none;
+    
+    }
+     
+    #header .menu-btn{
+        float: right;
+        width: 46px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: block;      
+        
+    }
+
+    #header .menu-icon:hover{
+        background-color: #ccc;
+        color: #000;
+        font-size: 15  px;
+        cursor: pointer;
+        border: none;
+           
+    }
+
+    #header .menu-icon{
+        color: #fff;
+        border: 1px solid ;
+        padding:15px 15px; 
+        font-size:  15px;
+        background-color: #000;
+        line-height: 46px;
+        padding: 16px 16px!important;
+        border: none; 
+         
+         
+
+    }
+
+    #content .name-list {
+        width: 100%;
+        float: none;
+
+}
+#content .menber-img {
+    width: 60%;
+}
+#content .menber-name {
+    margin: 15px;
+}
+
+#content .place-list {
+    margin: 0px 0px;
+    padding: 32px 0px;
+
+}
+
+#content .place-item {
+    width: 100%;
+    padding: 0px 0px;
+    margin-bottom: 16px;
+
+
+
+}
+.row {
+    display: block;
+}
+
+.s-col-full{
+    width: 100%;
+}
+.contact-info {
+    margin-bottom: 16px;
+}
+}
+

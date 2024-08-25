@@ -1,0 +1,122 @@
+/* reset CSS */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#input-body{
+    text-align: center;
+}
+
+
+
+#input-body .logo{
+    opacity: 0.5;
+    background-color: transparent;
+    background: none;
+    margin-bottom: 0px;
+    padding-left: 24px;
+   
+}
+
+
+#input-body .flat{
+    margin: 0px 0px 6px 0px;
+}
+
+#input-body .flat-VN{
+    border: none;
+    background: none;
+    width: 32px;
+    height: 32px;
+    margin: 0px 24px 0px 24px;
+    transition: transform 0.3s; /* Hiệu ứng chuyển tiếp */
+}
+
+#input-body .flat-EN{
+    border: none;
+    background: none;
+    width: 32px;
+    height: 32px;
+    margin: 0px 24px 0px 24px;
+    transition: transform 0.3s; /* Hiệu ứng chuyển tiếp */
+}
+
+#input-body .flat-VN:hover{
+    opacity: 0.8;
+    transform: scale(1.1)
+}
+
+#input-body .flat-EN:hover{
+    opacity: 0.8;
+    transform: scale(1.1)
+}
+
+
+#input-body .car-details{
+    /* background-color: #89cdf4; */
+    background: linear-gradient( 95.2deg, rgba(173,252,234,1) 26.8%, rgba(192,229,246,1) 64% );
+
+    margin-top: 32px;
+    width: fit-content;
+    display: inline-block;
+    height: fit-content;
+    text-align: center; 
+    padding-top: 16px;
+    padding-bottom: 32px;
+}
+#input-body .img-car{
+
+    padding-top: 16px;
+    padding-bottom: 16px;
+    width: 650px;
+}
+#input-body .heading{
+    padding: 16px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#input-body .input-control{
+    padding: 16px;
+    border-radius: 5%;
+    border: 1px solid #ccc;
+    margin: 16px 0px 32px 0px; 
+    width: 320px;    
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;  
+    background-color: #ecf0f1;
+    transition: width 0.3s; /* Hiệu ứng chuyển tiếp */
+    
+
+}
+#input-body .input-control.expanded {
+    width: 500px;
+    border-radius: 10px;
+}
+
+#input-body .submit{
+    padding: 16px;
+    font-size: 30px;
+    width: 100%;
+    background-color: rgb(226 22 81);;
+    border: none;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 16px 0px 32px 0px; 
+    border-radius: 20px;
+}
+
+
+#input-body .input-control:hover{
+    opacity: 0.8;
+}
+
+#input-body .submit:hover{
+    opacity: 0.8;
+}
+
+
+
+////////////////
